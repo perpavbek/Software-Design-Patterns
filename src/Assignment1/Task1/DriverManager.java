@@ -2,7 +2,7 @@ package Assignment1.Task1;
 
 public class DriverManager{
     private static DriverManager instance;
-
+    private DriverManager(){}
     public static DriverManager getInstance(){
         if(instance == null){
             instance = new DriverManager();
