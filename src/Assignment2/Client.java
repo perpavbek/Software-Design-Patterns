@@ -7,5 +7,5 @@ public class Client {
         CarSharing carSharing = new CarSharing(car);
         TaxiService taxiService =  new CarSharingAdapter(carSharing);
         taxiService.requestTaxi(passenger);
-}
+    }
 }
